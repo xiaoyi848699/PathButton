@@ -119,6 +119,7 @@ public class UgcAnimations {
 							+ yOffset, 0f, durationMillis));
 			set.setFillAfter(true);
 			set.setDuration(durationMillis);
+			//设置启动时间
 			set.setStartOffset((i * 100)
 					/ (-1 + relativeLayout.getChildCount()));
 			set.setInterpolator(new OvershootInterpolator(1f));
